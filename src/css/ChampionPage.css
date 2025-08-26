@@ -1,0 +1,43 @@
+.champion-spells {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #2e2929;
+    border-radius: 8px;
+}
+
+.spell-card {
+    background: #3a3333;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    color: #eee;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    transition: transform 0.2s;
+}
+
+.spell-card:hover {
+    transform: translateY(-3px);
+}
+
+.spell-card img {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.spell-info {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.spell-info strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #fff;
+}
