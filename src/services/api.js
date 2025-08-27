@@ -32,7 +32,7 @@ export const getChampion = async (id) => {
     champ.version = version;
 
 
-    champ.passive.icon = `${BASE_URL}/cdn/img/passive/${champ.passive.image.full}`;
+    champ.passive.icon = `${BASE_URL}/cdn/${version}/img/passive/${champ.passive.image.full}`;
     champ.spells = champ.spells.map(s => ({
         ...s,
         icon: `${BASE_URL}/cdn/${version}/img/spell/${s.image.full}`

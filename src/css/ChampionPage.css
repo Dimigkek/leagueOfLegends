@@ -1,11 +1,14 @@
 .champion-spells {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     padding: 20px;
     background-color: #2e2929;
     border-radius: 8px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
+
 
 .spell-card {
     background: #3a3333;
@@ -40,4 +43,65 @@
     display: block;
     margin-bottom: 4px;
     color: #fff;
+}
+
+
+.passive-card {
+    background: #3a3333;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    color: #eee;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.passive-card img {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+.spells-title{
+    color: white;
+}
+.passive-info {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.passive-info strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.champion-description {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #2e2929;
+    border-radius: 8px;
+    color: #ddd;
+    line-height: 1.6;
+    font-size: 15px;
+    white-space: pre-line;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.champion-description h1 {
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
+
+.champion-description img {
+    display: block;
+    margin: 0 auto 16px auto;
+    border-radius: 12px;
 }

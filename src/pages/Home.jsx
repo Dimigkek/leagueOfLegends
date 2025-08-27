@@ -25,16 +25,11 @@ export default function Home() {
         loadChampions()
     },[])
 
-    const handleSearch = (e) => {
-        e.preventDefault();
-        setSearch(e.target.value);
-    }
     return <div className="champion-home">
             <title>Home</title>
             <h1 className="champion-lolt">League of Legends Champions</h1>
-            <form onSubmit={handleSearch}>
-            <input type="text" value={search} placeholder="Search for the Champion..." onChange={e => setSearch(e.target.value)}/>
-            <button type="submit" >Search</button>
+            <form>
+            <input type="text" className="search-input" value={search} placeholder="Search for the Champion..." onChange={e => setSearch(e.target.value)}/>
             </form>
             {error && <div>{error}</div>}
             {loading ? (<h1>Loading...</h1>)
