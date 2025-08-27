@@ -56,801 +56,801 @@
   },
   "AurelionSol": {
     "releaseYear": 2016,
-    "region": "* Runeterra",
+    "region": "Runeterra",
     "gender": "Unknown"
   },
   "Aurora": {
-    "releaseYear": null,
+    "releaseYear": 2024,
     "region": "Freljord",
     "gender": "Female"
   },
   "Azir": {
-    "releaseYear": null,
+    "releaseYear": 2014,
     "region": "Shurima",
     "gender": "Unknown"
   },
   "Bard": {
-    "releaseYear": null,
+    "releaseYear": 2015,
     "region": "Runeterra",
     "gender": "Unknown"
   },
   "Belveth": {
-    "releaseYear": null,
-    "region": "* Void",
+    "releaseYear": 2022,
+    "region": "Void",
     "gender": "Unknown"
   },
   "Blitzcrank": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Zaun",
     "gender": "Unknown"
   },
   "Brand": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Runeterra",
     "gender": "Male"
   },
   "Braum": {
-    "releaseYear": null,
+    "releaseYear": 2014,
     "region": "Freljord",
     "gender": "Male"
   },
   "Briar": {
-    "releaseYear": null,
+    "releaseYear": 2023,
     "region": "Noxus",
     "gender": "Female"
   },
   "Caitlyn": {
-    "releaseYear": null,
-    "region": "Piltover|faction=* Piltover Wardens",
+    "releaseYear": 2011,
+    "region": "Piltover",
     "gender": "Female"
   },
   "Camille": {
-    "releaseYear": null,
+    "releaseYear": 2016,
     "region": "Piltover",
     "gender": "Female"
   },
   "Cassiopeia": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Noxus",
     "gender": "Female"
   },
   "Chogath": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Void",
     "gender": "Unknown"
   },
   "Corki": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "B",
     "gender": "Male"
   },
   "Darius": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Noxus",
     "gender": "Male"
   },
   "Diana": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Targon",
     "gender": "Female"
   },
   "Draven": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Noxus",
     "gender": "male"
   },
   "DrMundo": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Zaun",
     "gender": "Male"
   },
   "Ekko": {
-    "releaseYear": null,
+    "releaseYear": 2015,
     "region": "Zaun",
     "gender": "Male"
   },
   "Elise": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2012,
+    "region": "Shadow Isles",
     "gender": "Unknown"
   },
   "Evelynn": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Runeterra",
     "gender": "Female"
   },
   "Ezreal": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Piltover",
     "gender": "Male"
   },
   "Fiddlesticks": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Runeterra",
     "gender": "Unknown"
   },
   "Fiora": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Demacia",
     "gender": "Female"
   },
   "Fizz": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Bilgewater",
     "gender": "Unknown"
   },
   "Galio": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Demacia",
     "gender": "Unknown"
   },
   "Gangplank": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Bilgewater",
     "gender": "Male"
   },
   "Garen": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Demacia",
     "gender": "Male"
   },
   "Gnar": {
-    "releaseYear": null,
+    "releaseYear": 2014,
     "region": "Freljord",
     "gender": "Unknown"
   },
   "Gragas": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Freljord",
     "gender": "Male"
   },
   "Graves": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Bilgewater",
     "gender": "Male"
   },
   "Gwen": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2021,
+    "region": "Shadow Isles",
     "gender": "Female"
   },
   "Hecarim": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2012,
+    "region": "Shadow Isles",
     "gender": "Unknown"
   },
   "Heimerdinger": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Piltover",
     "gender": "Unknown"
   },
   "Hwei": {
-    "releaseYear": null,
+    "releaseYear": 2023,
     "region": "Ionia",
     "gender": "Male"
   },
   "Illaoi": {
-    "releaseYear": null,
+    "releaseYear": 2015,
     "region": "Bilgewater",
     "gender": "Female"
   },
   "Irelia": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": null,
     "gender": "Female"
   },
   "Ivern": {
-    "releaseYear": null,
-    "region": "* Ionia",
+    "releaseYear": 2016,
+    "region": "Ionia",
     "gender": "Unknown"
   },
   "Janna": {
-    "releaseYear": null,
-    "region": "* Zaun",
+    "releaseYear": 2009,
+    "region": "Zaun",
     "gender": "Female"
   },
   "JarvanIV": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Demacia",
     "gender": "Male"
   },
   "Jax": {
-    "releaseYear": null,
-    "region": "* Runeterra",
+    "releaseYear": 2009,
+    "region": "Runeterra",
     "gender": "Male"
   },
   "Jayce": {
-    "releaseYear": null,
-    "region": "Piltover|faction=* Ferros Clan",
+    "releaseYear": 2012,
+    "region": "Piltover",
     "gender": "Male"
   },
   "Jhin": {
-    "releaseYear": null,
+    "releaseYear": 2016,
     "region": "Ionia",
     "gender": "Male"
   },
   "Jinx": {
-    "releaseYear": null,
-    "region": "Zaun|faction=<s>Sumpsnipes<",
+    "releaseYear": 2013,
+    "region": "Zaun",
     "gender": "Female"
   },
   "Kaisa": {
-    "releaseYear": null,
+    "releaseYear": 2018,
     "region": "Void",
     "gender": "Female"
   },
   "Kalista": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2014,
+    "region": "Shadow Isles",
     "gender": "Female"
   },
   "Karma": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Ionia",
     "gender": "Female"
   },
   "Karthus": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2009,
+    "region": "Shadow Isles",
     "gender": "Unknown"
   },
   "Kassadin": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Void",
     "gender": "Unknown"
   },
   "Katarina": {
-    "releaseYear": null,
-    "region": "Noxus|faction=Nobility|Du Couteau House|related=Cassiopeia",
+    "releaseYear": 2009,
+    "region": "Noxus",
     "gender": "Female"
   },
   "Kayle": {
-    "releaseYear": null,
-    "region": "* Demacia",
+    "releaseYear": 2009,
+    "region": "Demacia",
     "gender": "Female"
   },
   "Kayn": {
-    "releaseYear": null,
-    "region": "* Ionia",
+    "releaseYear": 2017,
+    "region": "Ionia",
     "gender": "Male"
   },
   "Kennen": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Ionia",
     "gender": "Unknown"
   },
   "Khazix": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Void",
     "gender": "Unknown"
   },
   "Kindred": {
-    "releaseYear": null,
+    "releaseYear": 2015,
     "region": "Runeterra",
     "gender": "Unknown"
   },
   "Kled": {
-    "releaseYear": null,
+    "releaseYear": 2016,
     "region": "Noxus",
     "gender": "Male"
   },
   "KogMaw": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Void",
     "gender": "Unknown"
   },
   "KSante": {
-    "releaseYear": null,
+    "releaseYear": 2022,
     "region": "Shurima",
     "gender": "Unknown"
   },
   "Leblanc": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Noxus",
     "gender": "Female"
   },
   "LeeSin": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Ionia",
     "gender": "Male"
   },
   "Leona": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Targon",
     "gender": "Female"
   },
   "Lillia": {
-    "releaseYear": null,
+    "releaseYear": 2020,
     "region": "Ionia",
     "gender": "Unknown"
   },
   "Lissandra": {
-    "releaseYear": null,
+    "releaseYear": 2013,
     "region": "Freljord",
     "gender": "Unknown"
   },
   "Lucian": {
-    "releaseYear": null,
-    "region": "* Demacia",
+    "releaseYear": 2013,
+    "region": "Demacia",
     "gender": "Male"
   },
   "Lulu": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "B",
     "gender": "Female"
   },
   "Lux": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Demacia",
     "gender": "Female"
   },
   "Malphite": {
-    "releaseYear": null,
-    "region": "* Ixtal",
+    "releaseYear": 2009,
+    "region": "Ixtal",
     "gender": "Unknown"
   },
   "Malzahar": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Void",
     "gender": "Male"
   },
   "Maokai": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2011,
+    "region": "Shadow Isles",
     "gender": "Unknown"
   },
   "MasterYi": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Ionia",
     "gender": "Male"
   },
   "Mel": {
-    "releaseYear": null,
-    "region": "* Piltover",
+    "releaseYear": 2025,
+    "region": "Piltover",
     "gender": "Female"
   },
   "Milio": {
-    "releaseYear": null,
+    "releaseYear": 2023,
     "region": "Ixtal",
     "gender": "Unknown"
   },
   "MissFortune": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Bilgewater",
     "gender": "Female"
   },
   "MonkeyKing": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Ionia",
     "gender": "Male"
   },
   "Mordekaiser": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Noxus",
     "gender": "Unknown"
   },
   "Morgana": {
-    "releaseYear": null,
-    "region": "* Demacia",
+    "releaseYear": 2009,
+    "region": "Demacia",
     "gender": "Female"
   },
   "Naafiri": {
-    "releaseYear": null,
-    "region": "* Runeterra",
+    "releaseYear": 2023,
+    "region": "Runeterra",
     "gender": "Unknown"
   },
   "Nami": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Runeterra",
     "gender": "Unknown"
   },
   "Nasus": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Shurima",
     "gender": "Male"
   },
   "Nautilus": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Bilgewater",
     "gender": "Unknown"
   },
   "Neeko": {
-    "releaseYear": null,
+    "releaseYear": 2018,
     "region": "Ixtal",
     "gender": "Unknown"
   },
   "Nidalee": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Ixtal",
     "gender": "Female"
   },
   "Nilah": {
-    "releaseYear": null,
-    "region": "* Kathkan",
+    "releaseYear": 2022,
+    "region": "Kathkan",
     "gender": "Female"
   },
   "Nocturne": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Runeterra",
     "gender": "Unknown"
   },
   "Nunu": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": null,
     "gender": "Unknown"
   },
   "Olaf": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Freljord",
     "gender": "Male"
   },
   "Orianna": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Piltover",
     "gender": "Unknown"
   },
   "Ornn": {
-    "releaseYear": null,
+    "releaseYear": 2017,
     "region": "Freljord",
     "gender": "Unknown"
   },
   "Pantheon": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Targon",
     "gender": "Male"
   },
   "Poppy": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Demacia",
     "gender": "Female"
   },
   "Pyke": {
-    "releaseYear": null,
+    "releaseYear": 2018,
     "region": "Bilgewater",
     "gender": "Male"
   },
   "Qiyana": {
-    "releaseYear": null,
+    "releaseYear": 2019,
     "region": "Ixtal",
     "gender": "Female"
   },
   "Quinn": {
-    "releaseYear": null,
+    "releaseYear": 2013,
     "region": "Demacia",
     "gender": "Female"
   },
   "Rakan": {
-    "releaseYear": null,
+    "releaseYear": 2017,
     "region": "Ionia",
     "gender": "Male"
   },
   "Rammus": {
-    "releaseYear": null,
-    "region": "Shurima|faction=|related=",
+    "releaseYear": 2009,
+    "region": "Shurima",
     "gender": "Unknown"
   },
   "RekSai": {
-    "releaseYear": null,
+    "releaseYear": 2014,
     "region": "Void",
     "gender": "Unknown"
   },
   "Rell": {
-    "releaseYear": null,
+    "releaseYear": 2020,
     "region": "Noxus",
     "gender": "Female"
   },
   "Renata": {
-    "releaseYear": null,
+    "releaseYear": 2022,
     "region": "Zaun",
     "gender": "Female"
   },
   "Renekton": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Shurima",
     "gender": "Unknown"
   },
   "Rengar": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Ixtal",
     "gender": "Unknown"
   },
   "Riven": {
-    "releaseYear": null,
-    "region": "* Ionia",
+    "releaseYear": 2011,
+    "region": "Ionia",
     "gender": "Female"
   },
   "Rumble": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "B",
     "gender": "Unknown"
   },
   "Ryze": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Runeterra",
     "gender": "Male"
   },
   "Samira": {
-    "releaseYear": null,
-    "region": "* Shurima",
+    "releaseYear": 2020,
+    "region": "Shurima",
     "gender": "Female"
   },
   "Sejuani": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Freljord",
     "gender": "Female"
   },
   "Senna": {
-    "releaseYear": null,
-    "region": "* Blessed Isles",
+    "releaseYear": 2019,
+    "region": "Blessed Isles",
     "gender": "Female"
   },
   "Seraphine": {
-    "releaseYear": null,
-    "region": "* Piltover",
+    "releaseYear": 2020,
+    "region": "Piltover",
     "gender": "Female"
   },
   "Sett": {
-    "releaseYear": null,
+    "releaseYear": 2020,
     "region": "Ionia",
     "gender": "Male"
   },
   "Shaco": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Runeterra",
     "gender": "Male"
   },
   "Shen": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Ionia",
     "gender": "Male"
   },
   "Shyvana": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Demacia",
     "gender": "Female"
   },
   "Singed": {
-    "releaseYear": null,
-    "region": "* Zaun",
+    "releaseYear": 2009,
+    "region": "Zaun",
     "gender": "Male"
   },
   "Sion": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Noxus",
     "gender": "Male"
   },
   "Sivir": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Shurima",
     "gender": "Female"
   },
   "Skarner": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Ixtal",
     "gender": "Unknown"
   },
   "Smolder": {
-    "releaseYear": null,
-    "region": "|faction =",
+    "releaseYear": 2024,
+    "region": "Noxus",
     "gender": "Unknown"
   },
   "Sona": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Demacia",
     "gender": "Female"
   },
   "Soraka": {
-    "releaseYear": null,
-    "region": "* Targon",
+    "releaseYear": 2009,
+    "region": "Targon",
     "gender": "Female"
   },
   "Swain": {
-    "releaseYear": null,
-    "region": "Noxus|faction=* Trifarix",
+    "releaseYear": 2010,
+    "region": "Noxus",
     "gender": "Male"
   },
   "Sylas": {
-    "releaseYear": null,
-    "region": "* Demacia",
+    "releaseYear": 2019,
+    "region": "Demacia",
     "gender": "Male"
   },
   "Syndra": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Ionia",
     "gender": "Female"
   },
   "TahmKench": {
-    "releaseYear": null,
+    "releaseYear": 2015,
     "region": "Bilgewater",
     "gender": "Unknown"
   },
   "Taliyah": {
-    "releaseYear": null,
+    "releaseYear": 2016,
     "region": "Shurima",
     "gender": "Unknown"
   },
   "Talon": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Noxus",
     "gender": "Male"
   },
   "Taric": {
-    "releaseYear": null,
-    "region": "* Targon",
+    "releaseYear": 2009,
+    "region": "Targon",
     "gender": "Male"
   },
   "Teemo": {
-    "releaseYear": null,
-    "region": "B",
+    "releaseYear": 2009,
+    "region": "Bandle City",
     "gender": "Unknown"
   },
   "Thresh": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2013,
+    "region": "Shadow Isles",
     "gender": "Unknown"
   },
   "Tristana": {
-    "releaseYear": null,
-    "region": "B",
+    "releaseYear": 2009,
+    "region": "Bandle City",
     "gender": "Female"
   },
   "Trundle": {
-    "releaseYear": null,
+    "releaseYear": 2010,
     "region": "Freljord",
     "gender": "Male"
   },
   "Tryndamere": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Freljord",
     "gender": "Male"
   },
   "TwistedFate": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Bilgewater",
     "gender": "Male"
   },
   "Twitch": {
-    "releaseYear": null,
+    "releaseYear": 2009,
     "region": "Zaun",
     "gender": "Male"
   },
   "Udyr": {
-    "releaseYear": null,
-    "region": "* Freljord",
+    "releaseYear": 2009,
+    "region": "Freljord",
     "gender": "Male"
   },
   "Urgot": {
-    "releaseYear": null,
-    "region": "* Noxus",
+    "releaseYear": 2010,
+    "region": "Noxus",
     "gender": "Male"
   },
   "Varus": {
-    "releaseYear": null,
-    "region": "* Ionia",
+    "releaseYear": 2012,
+    "region": "Ionia",
     "gender": "Male"
   },
   "Vayne": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Demacia",
     "gender": "Female"
   },
   "Veigar": {
-    "releaseYear": null,
-    "region": "* Runeterra",
+    "releaseYear": 2009,
+    "region": "Runeterra",
     "gender": "Male"
   },
   "Velkoz": {
-    "releaseYear": null,
+    "releaseYear": 2014,
     "region": "Void",
     "gender": "Unknown"
   },
   "Vex": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2021,
+    "region": "Shadow Isles",
     "gender": "Female"
   },
   "Vi": {
-    "releaseYear": null,
-    "region": "* Piltover",
+    "releaseYear": 2012,
+    "region": "Piltover",
     "gender": "Female"
   },
   "Viego": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2021,
+    "region": "Shadow Isles",
     "gender": "Male"
   },
   "Viktor": {
-    "releaseYear": null,
-    "region": "Zaun|faction=|related=Jayce",
+    "releaseYear": 2011,
+    "region": "Zaun",
     "gender": "Male"
   },
   "Vladimir": {
-    "releaseYear": null,
-    "region": "* Noxus",
+    "releaseYear": 2010,
+    "region": "Noxus",
     "gender": "Male"
   },
   "Volibear": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Freljord",
     "gender": "Male"
   },
   "Warwick": {
-    "releaseYear": null,
-    "region": "Zaun|faction=|related=Singed",
+    "releaseYear": 2009,
+    "region": "Zaun",
     "gender": "Male"
   },
   "Xayah": {
-    "releaseYear": null,
+    "releaseYear": 2017,
     "region": "Ionia",
     "gender": "Female"
   },
   "Xerath": {
-    "releaseYear": null,
+    "releaseYear": 2011,
     "region": "Shurima",
     "gender": "Male"
   },
   "XinZhao": {
-    "releaseYear": null,
-    "region": "* Demacia",
+    "releaseYear": 2010,
+    "region": "Demacia",
     "gender": "Male"
   },
   "Yasuo": {
-    "releaseYear": null,
+    "releaseYear": 2013,
     "region": "Ionia",
     "gender": "male"
   },
   "Yone": {
-    "releaseYear": null,
+    "releaseYear": 2020,
     "region": "Ionia",
     "gender": "Male"
   },
   "Yorick": {
-    "releaseYear": null,
-    "region": "* Shadow Isles",
+    "releaseYear": 2011,
+    "region": "Shadow Isles",
     "gender": "Male"
   },
   "Yunara": {
-    "releaseYear": null,
-    "region": null,
+    "releaseYear": 2025,
+    "region": "Ionia" ,
     "gender": "Female"
   },
   "Yuumi": {
-    "releaseYear": null,
-    "region": "B",
+    "releaseYear": 2019,
+    "region": "Bandle City",
     "gender": "Unknown"
   },
   "Zac": {
-    "releaseYear": null,
+    "releaseYear": 2013,
     "region": "Zaun",
     "gender": "Unknown"
   },
   "Zed": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Ionia",
     "gender": "Male"
   },
   "Zeri": {
-    "releaseYear": null,
+    "releaseYear": 2022,
     "region": "Zaun",
     "gender": "Female"
   },
   "Ziggs": {
-    "releaseYear": null,
-    "region": "* Zaun",
+    "releaseYear": 2012,
+    "region": "Zaun",
     "gender": "Male"
   },
   "Zilean": {
-    "releaseYear": null,
-    "region": "* Runeterra",
+    "releaseYear": 2009,
+    "region": "Runeterra",
     "gender": "Male"
   },
   "Zoe": {
-    "releaseYear": null,
+    "releaseYear": 2017,
     "region": "Targon",
     "gender": "Female"
   },
   "Zyra": {
-    "releaseYear": null,
+    "releaseYear": 2012,
     "region": "Ixtal",
     "gender": "Female"
   }
