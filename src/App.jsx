@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
 import ChampionPage from "./pages/ChampionPage";
-import NavBar from "./components/NavBar";
+import LoldleClassic from "./pages/GamePage";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/champion/:id" element={<ChampionPage />} />
+           <Route path="/game" element={<LoldleClassic />} />
         </Routes>
       </BrowserRouter>
     </div>

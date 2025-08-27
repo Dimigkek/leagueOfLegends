@@ -2,6 +2,7 @@ import ChampionCard from "../components/ChampionCard";
 import {useState,useEffect} from "react";
 import {getChampions,getRiftImage} from "../services/api";
 import '../css/Home.css'
+import {Link} from "react-router-dom";
 
 export default function Home() {
     const [search, setSearch] = useState("");
@@ -41,13 +42,16 @@ export default function Home() {
         <h1 className="champion-lolt display-2 fw-bold text-uppercase">
             League of Legends Champions
         </h1>
+        <div className="hero">
+            <Link to="/game" className="play-btn">🎮 Play</Link>
+        </div>
             <form>
             <input type="text" className="search-input" value={search} placeholder="Search for the Champion..." onChange={e => setSearch(e.target.value)}/>
 
             </form>
             <div className="champion-box">
             {error && <div>{error}</div>}
-            {loading ? (<h1>Loading...</h1>)
+            {loading ? (<h1 className="loading">Loading...</h1>)
                 :(
                     <div className="champions-container" style={rift ? { ["--rift"]: `url(${rift})` } : undefined}>
                     {champion.map(
