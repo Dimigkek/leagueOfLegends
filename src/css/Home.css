@@ -1,8 +1,59 @@
-.champion-home{
-    background-color: #1c1313;
+.champion-home {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: radial-gradient(circle at top, #2c1a1a, #0f0a0a 100%);
+    background-attachment: fixed;
 }
 
-.champion-lolt{
-    color: #ff4757;
-    text-shadow: 2px 2px 4px rgba(241, 0, 0, 0.5);
+.champion-lolt {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+
+    background: linear-gradient(180deg, #f7e8a4 0%, #d4a019 40%, #9b6b08 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Subtle shadow/glow */
+    text-shadow: 0 0 10px rgba(212, 160, 25, 0.6),
+    0 0 20px rgba(155, 107, 8, 0.5);
+
+
+    font-weight: 700;
+}
+
+.champion-lolt::first-letter {
+    font-size: 110%;
+}
+@keyframes gold-glow {
+    0% {
+        text-shadow: 0 0 6px rgba(212, 160, 25, 0.6),
+        0 0 12px rgba(155, 107, 8, 0.4);
+    }
+    100% {
+        text-shadow: 0 0 16px rgba(247, 232, 164, 0.8),
+        0 0 32px rgba(212, 160, 25, 0.6);
+    }
+}
+
+.champion-lolt {
+    animation: gold-glow 1s ease-in-out infinite alternate;
+}
+
+
+.champions-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    padding: 30px;
+    border-radius: 12px;
+
+    background: rgba(37, 29, 29, 0.85);
+    backdrop-filter: blur(6px);
+    max-width: 1600px;
+    margin: 0 auto;
+    box-shadow: 0 6px 18px rgba(66, 33, 33, 0.6);
 }

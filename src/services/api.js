@@ -40,3 +40,8 @@ export const getChampion = async (id) => {
 
     return champ;
 }
+
+export const getRiftImage = async () => {
+    const version = await getLatestVersion();
+    return `https://ddragon.leagueoflegends.com/cdn/${version}/img/map/map11.png`;
+};
