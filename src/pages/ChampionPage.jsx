@@ -32,6 +32,7 @@ export default function ChampionPage() {
     if (!champion) return <div>Loading…</div>;
 
     return <div>
+        <div className="champion-page" style={{ ['--splash']: `url(${champion.splash})` }}>
         <NavBar/>
         <h1 className="champion-description-title">{champion.name}</h1>
         <img src={champion.icon} alt={champion.name} width={96} height={96} />
@@ -60,5 +61,6 @@ export default function ChampionPage() {
                     </div>
                 ))}
             </div>
+        </div>
         </div>
 }
