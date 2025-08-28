@@ -60,7 +60,7 @@ export default function LoldleClassic() {
     return <div className="loldle">
         <title>Game</title>
         <NavBar/>
-        <h1 className="loldle-title">Find the Champion</h1>
+        <h1 className="loldle-title">Try to guess the Champion</h1>
         <div>
         <button
             className="how-btn"
@@ -76,7 +76,8 @@ export default function LoldleClassic() {
         </div>
         <br/>
             <div className="loldle-input">
-                {!won?(<div className="loldle-input-row">
+                {!won?(<div>
+                    <div className="loldle-input-row">
                         <input
                             type="text"
                             placeholder="Type a champion..."
@@ -97,6 +98,8 @@ export default function LoldleClassic() {
                         >
                             Reset
                         </button>
+                    </div>
+                        <p className="guess-count">You have guessed {count} times!</p>
                     </div>
 
                 ):(<div className="win-banner">
