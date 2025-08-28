@@ -1,0 +1,1028 @@
+{
+  "Aatrox": {
+    "releaseYear": 2013,
+    "region": "Runeterra",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Ahri": {
+    "releaseYear": 2011,
+    "region": "Ionia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Akali": {
+    "releaseYear": 2011,
+    "region": "Ionia",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Akshan": {
+    "releaseYear": 2021,
+    "region": "Shurima",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Alistar": {
+    "releaseYear": 2009,
+    "region": "Runeterra",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Ambessa": {
+    "releaseYear": 2024,
+    "region": "Piltover",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Amumu": {
+    "releaseYear": 2009,
+    "region": "Shurima",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Anivia": {
+    "releaseYear": 2009,
+    "region": "Freljord",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Annie": {
+    "releaseYear": 2009,
+    "region": "Runeterra",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Aphelios": {
+    "releaseYear": 2019,
+    "region": "Targon",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Ashe": {
+    "releaseYear": 2009,
+    "region": "Freljord",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "AurelionSol": {
+    "releaseYear": 2016,
+    "region": "Runeterra",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Aurora": {
+    "releaseYear": 2024,
+    "region": "Freljord",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Azir": {
+    "releaseYear": 2014,
+    "region": "Shurima",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Bard": {
+    "releaseYear": 2015,
+    "region": "Runeterra",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Belveth": {
+    "releaseYear": 2022,
+    "region": "Void",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Blitzcrank": {
+    "releaseYear": 2009,
+    "region": "Zaun",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Brand": {
+    "releaseYear": 2011,
+    "region": "Runeterra",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Braum": {
+    "releaseYear": 2014,
+    "region": "Freljord",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Briar": {
+    "releaseYear": 2023,
+    "region": "Noxus",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Caitlyn": {
+    "releaseYear": 2011,
+    "region": "Piltover",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Camille": {
+    "releaseYear": 2016,
+    "region": "Piltover",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Cassiopeia": {
+    "releaseYear": 2010,
+    "region": "Noxus",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Chogath": {
+    "releaseYear": 2009,
+    "region": "Void",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Corki": {
+    "releaseYear": 2009,
+    "region": "B",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Darius": {
+    "releaseYear": 2012,
+    "region": "Noxus",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Diana": {
+    "releaseYear": 2012,
+    "region": "Targon",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Draven": {
+    "releaseYear": 2012,
+    "region": "Noxus",
+    "gender": "male",
+    "attack": "Range"
+  },
+  "DrMundo": {
+    "releaseYear": 2009,
+    "region": "Zaun",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Ekko": {
+    "releaseYear": 2015,
+    "region": "Zaun",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Elise": {
+    "releaseYear": 2012,
+    "region": "Shadow Isles",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Evelynn": {
+    "releaseYear": 2009,
+    "region": "Runeterra",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Ezreal": {
+    "releaseYear": 2010,
+    "region": "Piltover",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Fiddlesticks": {
+    "releaseYear": 2009,
+    "region": "Runeterra",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Fiora": {
+    "releaseYear": 2012,
+    "region": "Demacia",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Fizz": {
+    "releaseYear": 2011,
+    "region": "Bilgewater",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Galio": {
+    "releaseYear": 2010,
+    "region": "Demacia",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Gangplank": {
+    "releaseYear": 2009,
+    "region": "Bilgewater",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Garen": {
+    "releaseYear": 2010,
+    "region": "Demacia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Gnar": {
+    "releaseYear": 2014,
+    "region": "Freljord",
+    "gender": "Unknown",
+    "attack": "Melee/Range"
+  },
+  "Gragas": {
+    "releaseYear": 2010,
+    "region": "Freljord",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Graves": {
+    "releaseYear": 2011,
+    "region": "Bilgewater",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Gwen": {
+    "releaseYear": 2021,
+    "region": "Shadow Isles",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Hecarim": {
+    "releaseYear": 2012,
+    "region": "Shadow Isles",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Heimerdinger": {
+    "releaseYear": 2009,
+    "region": "Piltover",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Hwei": {
+    "releaseYear": 2023,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Illaoi": {
+    "releaseYear": 2015,
+    "region": "Bilgewater",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Irelia": {
+    "releaseYear": 2010,
+    "region": "Ionia",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Ivern": {
+    "releaseYear": 2016,
+    "region": "Ionia",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Janna": {
+    "releaseYear": 2009,
+    "region": "Zaun",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "JarvanIV": {
+    "releaseYear": 2011,
+    "region": "Demacia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Jax": {
+    "releaseYear": 2009,
+    "region": "Runeterra",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Jayce": {
+    "releaseYear": 2012,
+    "region": "Piltover",
+    "gender": "Male",
+    "attack": "Melee/Range"
+  },
+  "Jhin": {
+    "releaseYear": 2016,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Jinx": {
+    "releaseYear": 2013,
+    "region": "Zaun",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Kaisa": {
+    "releaseYear": 2018,
+    "region": "Void",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Kalista": {
+    "releaseYear": 2014,
+    "region": "Shadow Isles",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Karma": {
+    "releaseYear": 2011,
+    "region": "Ionia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Karthus": {
+    "releaseYear": 2009,
+    "region": "Shadow Isles",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Kassadin": {
+    "releaseYear": 2009,
+    "region": "Void",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Katarina": {
+    "releaseYear": 2009,
+    "region": "Noxus",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Kayle": {
+    "releaseYear": 2009,
+    "region": "Demacia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Kayn": {
+    "releaseYear": 2017,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Kennen": {
+    "releaseYear": 2010,
+    "region": "Ionia",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Khazix": {
+    "releaseYear": 2012,
+    "region": "Void",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Kindred": {
+    "releaseYear": 2015,
+    "region": "Runeterra",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Kled": {
+    "releaseYear": 2016,
+    "region": "Noxus",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "KogMaw": {
+    "releaseYear": 2010,
+    "region": "Void",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "KSante": {
+    "releaseYear": 2022,
+    "region": "Shurima",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Leblanc": {
+    "releaseYear": 2010,
+    "region": "Noxus",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "LeeSin": {
+    "releaseYear": 2011,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Leona": {
+    "releaseYear": 2011,
+    "region": "Targon",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Lillia": {
+    "releaseYear": 2020,
+    "region": "Ionia",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Lissandra": {
+    "releaseYear": 2013,
+    "region": "Freljord",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Lucian": {
+    "releaseYear": 2013,
+    "region": "Demacia",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Lulu": {
+    "releaseYear": 2012,
+    "region": "B",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Lux": {
+    "releaseYear": 2010,
+    "region": "Demacia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Malphite": {
+    "releaseYear": 2009,
+    "region": "Ixtal",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Malzahar": {
+    "releaseYear": 2010,
+    "region": "Void",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Maokai": {
+    "releaseYear": 2011,
+    "region": "Shadow Isles",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "MasterYi": {
+    "releaseYear": 2009,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Mel": {
+    "releaseYear": 2025,
+    "region": "Piltover",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Milio": {
+    "releaseYear": 2023,
+    "region": "Ixtal",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "MissFortune": {
+    "releaseYear": 2010,
+    "region": "Bilgewater",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "MonkeyKing": {
+    "releaseYear": 2011,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Mordekaiser": {
+    "releaseYear": 2010,
+    "region": "Noxus",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Morgana": {
+    "releaseYear": 2009,
+    "region": "Demacia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Naafiri": {
+    "releaseYear": 2023,
+    "region": "Runeterra",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Nami": {
+    "releaseYear": 2012,
+    "region": "Runeterra",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Nasus": {
+    "releaseYear": 2009,
+    "region": "Shurima",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Nautilus": {
+    "releaseYear": 2012,
+    "region": "Bilgewater",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Neeko": {
+    "releaseYear": 2018,
+    "region": "Ixtal",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Nidalee": {
+    "releaseYear": 2009,
+    "region": "Ixtal",
+    "gender": "Female",
+    "attack": "Melee/Range"
+  },
+  "Nilah": {
+    "releaseYear": 2022,
+    "region": "Kathkan",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Nocturne": {
+    "releaseYear": 2011,
+    "region": "Runeterra",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Nunu": {
+    "releaseYear": 2009,
+    "region": "Freljord",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Olaf": {
+    "releaseYear": 2010,
+    "region": "Freljord",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Orianna": {
+    "releaseYear": 2011,
+    "region": "Piltover",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Ornn": {
+    "releaseYear": 2017,
+    "region": "Freljord",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Pantheon": {
+    "releaseYear": 2010,
+    "region": "Targon",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Poppy": {
+    "releaseYear": 2010,
+    "region": "Demacia",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Pyke": {
+    "releaseYear": 2018,
+    "region": "Bilgewater",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Qiyana": {
+    "releaseYear": 2019,
+    "region": "Ixtal",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Quinn": {
+    "releaseYear": 2013,
+    "region": "Demacia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Rakan": {
+    "releaseYear": 2017,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Rammus": {
+    "releaseYear": 2009,
+    "region": "Shurima",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "RekSai": {
+    "releaseYear": 2014,
+    "region": "Void",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Rell": {
+    "releaseYear": 2020,
+    "region": "Noxus",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Renata": {
+    "releaseYear": 2022,
+    "region": "Zaun",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Renekton": {
+    "releaseYear": 2011,
+    "region": "Shurima",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Rengar": {
+    "releaseYear": 2012,
+    "region": "Ixtal",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Riven": {
+    "releaseYear": 2011,
+    "region": "Ionia",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Rumble": {
+    "releaseYear": 2011,
+    "region": "B",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Ryze": {
+    "releaseYear": 2009,
+    "region": "Runeterra",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Samira": {
+    "releaseYear": 2020,
+    "region": "Shurima",
+    "gender": "Female",
+    "attack": "Melee/Range"
+  },
+  "Sejuani": {
+    "releaseYear": 2012,
+    "region": "Freljord",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Senna": {
+    "releaseYear": 2019,
+    "region": "Blessed Isles",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Seraphine": {
+    "releaseYear": 2020,
+    "region": "Piltover",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Sett": {
+    "releaseYear": 2020,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Shaco": {
+    "releaseYear": 2009,
+    "region": "Runeterra",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Shen": {
+    "releaseYear": 2010,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Shyvana": {
+    "releaseYear": 2011,
+    "region": "Demacia",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Singed": {
+    "releaseYear": 2009,
+    "region": "Zaun",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Sion": {
+    "releaseYear": 2009,
+    "region": "Noxus",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Sivir": {
+    "releaseYear": 2009,
+    "region": "Shurima",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Skarner": {
+    "releaseYear": 2011,
+    "region": "Ixtal",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Smolder": {
+    "releaseYear": 2024,
+    "region": "Noxus",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Sona": {
+    "releaseYear": 2010,
+    "region": "Demacia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Soraka": {
+    "releaseYear": 2009,
+    "region": "Targon",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Swain": {
+    "releaseYear": 2010,
+    "region": "Noxus",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Sylas": {
+    "releaseYear": 2019,
+    "region": "Demacia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Syndra": {
+    "releaseYear": 2012,
+    "region": "Ionia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "TahmKench": {
+    "releaseYear": 2015,
+    "region": "Bilgewater",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Taliyah": {
+    "releaseYear": 2016,
+    "region": "Shurima",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Talon": {
+    "releaseYear": 2011,
+    "region": "Noxus",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Taric": {
+    "releaseYear": 2009,
+    "region": "Targon",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Teemo": {
+    "releaseYear": 2009,
+    "region": "Bandle City",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Thresh": {
+    "releaseYear": 2013,
+    "region": "Shadow Isles",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Tristana": {
+    "releaseYear": 2009,
+    "region": "Bandle City",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Trundle": {
+    "releaseYear": 2010,
+    "region": "Freljord",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Tryndamere": {
+    "releaseYear": 2009,
+    "region": "Freljord",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "TwistedFate": {
+    "releaseYear": 2009,
+    "region": "Bilgewater",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Twitch": {
+    "releaseYear": 2009,
+    "region": "Zaun",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Udyr": {
+    "releaseYear": 2009,
+    "region": "Freljord",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Urgot": {
+    "releaseYear": 2010,
+    "region": "Noxus",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Varus": {
+    "releaseYear": 2012,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Vayne": {
+    "releaseYear": 2011,
+    "region": "Demacia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Veigar": {
+    "releaseYear": 2009,
+    "region": "Runeterra",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Velkoz": {
+    "releaseYear": 2014,
+    "region": "Void",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Vex": {
+    "releaseYear": 2021,
+    "region": "Shadow Isles",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Vi": {
+    "releaseYear": 2012,
+    "region": "Piltover",
+    "gender": "Female",
+    "attack": "Melee"
+  },
+  "Viego": {
+    "releaseYear": 2021,
+    "region": "Shadow Isles",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Viktor": {
+    "releaseYear": 2011,
+    "region": "Zaun",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Vladimir": {
+    "releaseYear": 2010,
+    "region": "Noxus",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Volibear": {
+    "releaseYear": 2011,
+    "region": "Freljord",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Warwick": {
+    "releaseYear": 2009,
+    "region": "Zaun",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Xayah": {
+    "releaseYear": 2017,
+    "region": "Ionia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Xerath": {
+    "releaseYear": 2011,
+    "region": "Shurima",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "XinZhao": {
+    "releaseYear": 2010,
+    "region": "Demacia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Yasuo": {
+    "releaseYear": 2013,
+    "region": "Ionia",
+    "gender": "male",
+    "attack": "Melee"
+  },
+  "Yone": {
+    "releaseYear": 2020,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Yorick": {
+    "releaseYear": 2011,
+    "region": "Shadow Isles",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Yunara": {
+    "releaseYear": 2025,
+    "region": "Ionia",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Yuumi": {
+    "releaseYear": 2019,
+    "region": "Bandle City",
+    "gender": "Unknown",
+    "attack": "Range"
+  },
+  "Zac": {
+    "releaseYear": 2013,
+    "region": "Zaun",
+    "gender": "Unknown",
+    "attack": "Melee"
+  },
+  "Zed": {
+    "releaseYear": 2012,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
+  "Zeri": {
+    "releaseYear": 2022,
+    "region": "Zaun",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Ziggs": {
+    "releaseYear": 2012,
+    "region": "Zaun",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Zilean": {
+    "releaseYear": 2009,
+    "region": "Runeterra",
+    "gender": "Male",
+    "attack": "Range"
+  },
+  "Zoe": {
+    "releaseYear": 2017,
+    "region": "Targon",
+    "gender": "Female",
+    "attack": "Range"
+  },
+  "Zyra": {
+    "releaseYear": 2012,
+    "region": "Ixtal",
+    "gender": "Female",
+    "attack": "Range"
+  }
+}
