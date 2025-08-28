@@ -26,7 +26,7 @@
   "Alistar": {
     "releaseYear": 2009,
     "region": "Runeterra",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Ambessa": {
@@ -38,13 +38,13 @@
   "Amumu": {
     "releaseYear": 2009,
     "region": "Shurima",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Anivia": {
     "releaseYear": 2009,
     "region": "Freljord",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Range"
   },
   "Annie": {
@@ -80,7 +80,7 @@
   "Azir": {
     "releaseYear": 2014,
     "region": "Shurima",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Range"
   },
   "Bard": {
@@ -92,7 +92,7 @@
   "Belveth": {
     "releaseYear": 2022,
     "region": "Void",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Melee"
   },
   "Blitzcrank": {
@@ -182,7 +182,7 @@
   "Elise": {
     "releaseYear": 2012,
     "region": "Shadow Isles",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Range"
   },
   "Evelynn": {
@@ -212,7 +212,7 @@
   "Fizz": {
     "releaseYear": 2011,
     "region": "Bilgewater",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Galio": {
@@ -236,7 +236,7 @@
   "Gnar": {
     "releaseYear": 2014,
     "region": "Freljord",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee/Range"
   },
   "Gragas": {
@@ -260,13 +260,13 @@
   "Hecarim": {
     "releaseYear": 2012,
     "region": "Shadow Isles",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Heimerdinger": {
     "releaseYear": 2009,
     "region": "Piltover",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Range"
   },
   "Hwei": {
@@ -350,13 +350,13 @@
   "Karthus": {
     "releaseYear": 2009,
     "region": "Shadow Isles",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Range"
   },
   "Kassadin": {
     "releaseYear": 2009,
     "region": "Void",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Katarina": {
@@ -380,13 +380,13 @@
   "Kennen": {
     "releaseYear": 2010,
     "region": "Ionia",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Range"
   },
   "Khazix": {
     "releaseYear": 2012,
     "region": "Void",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Kindred": {
@@ -410,7 +410,7 @@
   "KSante": {
     "releaseYear": 2022,
     "region": "Shurima",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Leblanc": {
@@ -434,13 +434,13 @@
   "Lillia": {
     "releaseYear": 2020,
     "region": "Ionia",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Melee"
   },
   "Lissandra": {
     "releaseYear": 2013,
     "region": "Freljord",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Range"
   },
   "Lucian": {
@@ -476,7 +476,7 @@
   "Maokai": {
     "releaseYear": 2011,
     "region": "Shadow Isles",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "MasterYi": {
@@ -494,7 +494,7 @@
   "Milio": {
     "releaseYear": 2023,
     "region": "Ixtal",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Range"
   },
   "MissFortune": {
@@ -512,7 +512,7 @@
   "Mordekaiser": {
     "releaseYear": 2010,
     "region": "Noxus",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Morgana": {
@@ -524,13 +524,13 @@
   "Naafiri": {
     "releaseYear": 2023,
     "region": "Runeterra",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Melee"
   },
   "Nami": {
     "releaseYear": 2012,
     "region": "Runeterra",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Range"
   },
   "Nasus": {
@@ -542,13 +542,13 @@
   "Nautilus": {
     "releaseYear": 2012,
     "region": "Bilgewater",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Neeko": {
     "releaseYear": 2018,
     "region": "Ixtal",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Range"
   },
   "Nidalee": {
@@ -566,13 +566,13 @@
   "Nocturne": {
     "releaseYear": 2011,
     "region": "Runeterra",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Nunu": {
     "releaseYear": 2009,
     "region": "Freljord",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Olaf": {
@@ -584,13 +584,13 @@
   "Orianna": {
     "releaseYear": 2011,
     "region": "Piltover",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Range"
   },
   "Ornn": {
     "releaseYear": 2017,
     "region": "Freljord",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Pantheon": {
@@ -632,13 +632,13 @@
   "Rammus": {
     "releaseYear": 2009,
     "region": "Shurima",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "RekSai": {
     "releaseYear": 2014,
     "region": "Void",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Melee"
   },
   "Rell": {
@@ -656,13 +656,13 @@
   "Renekton": {
     "releaseYear": 2011,
     "region": "Shurima",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Rengar": {
     "releaseYear": 2012,
     "region": "Ixtal",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Riven": {
@@ -674,7 +674,7 @@
   "Rumble": {
     "releaseYear": 2011,
     "region": "B",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Ryze": {
@@ -758,7 +758,7 @@
   "Smolder": {
     "releaseYear": 2024,
     "region": "Noxus",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Range"
   },
   "Sona": {
@@ -794,13 +794,13 @@
   "TahmKench": {
     "releaseYear": 2015,
     "region": "Bilgewater",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Melee"
   },
   "Taliyah": {
     "releaseYear": 2016,
     "region": "Shurima",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Range"
   },
   "Talon": {
@@ -818,13 +818,13 @@
   "Teemo": {
     "releaseYear": 2009,
     "region": "Bandle City",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Range"
   },
   "Thresh": {
     "releaseYear": 2013,
     "region": "Shadow Isles",
-    "gender": "Unknown",
+    "gender": "Male",
     "attack": "Range"
   },
   "Tristana": {
@@ -980,7 +980,7 @@
   "Yuumi": {
     "releaseYear": 2019,
     "region": "Bandle City",
-    "gender": "Unknown",
+    "gender": "Female",
     "attack": "Range"
   },
   "Zac": {
