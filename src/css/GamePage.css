@@ -1,5 +1,25 @@
 .loldle {
+    position: relative;
+    min-height: 100vh;
     padding: 24px;
+
+    background-image: url("../img/League-of-Legends.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    isolation: isolate;
+}
+
+.loldle::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+    );
+    z-index: -1;
 }
 
 .loldle-title {
@@ -39,6 +59,7 @@
     max-height: 260px;
     overflow: auto;
     z-index: 10;
+    color: white;
 }
 .loldle-suggest li {
     display: flex;

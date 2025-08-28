@@ -4,6 +4,8 @@ import { norm, pickRandom, judge, pillClass } from "../services/game";
 import "../css/GamePage.css";
 import NavBar from "../components/NavBar";
 import meta from "../data/championMeta.json";
+import {DownArrow} from "../components/ArrowDown";
+import {UpArrow} from "../components/ArrowUp";
 
 export default function LoldleClassic() {
     const [champs, setChamps] = useState([]);
@@ -53,17 +55,36 @@ export default function LoldleClassic() {
     const won = guesses.some(g => g.champ.id === answer.id);
 
     return <div className="loldle">
+        <title>Game</title>
         <NavBar/>
+
             <h1 className="loldle-title">Find the Champion</h1>
 
             <div className="loldle-input">
-                <input
+                {!won?(<input
                     type="text"
                     placeholder="Type a champion..."
                     value={query}
                     onChange={e => setQuery(e.target.value)}
                     onKeyDown={e => { if (e.key === "Enter") submitGuess(query); }}
-                />
+                />):(<div className="win-banner">
+                    <div>
+                        ✅ You got it! Answer: <strong>{answer.name}</strong>
+                    </div>
+                    <div>
+                        <button
+                            className="play-btn"
+                            onClick={() => {
+                                const a = pickRandom(champs);
+                                console.log("Picked answer:", a?.id, a?.name);
+                                setAnswer(a);
+                                setGuesses([]);
+                            }}
+                        >
+                            New Game
+                        </button>
+                    </div>
+                </div>)}
                 {query && suggestions.length > 0 && (
                     <ul className="loldle-suggest">
                         {suggestions.map(s => (
@@ -100,33 +121,27 @@ export default function LoldleClassic() {
                             <img src={champ.icon} alt={champ.name} />
                             <strong>{champ.name}</strong>
                         </div>
-
                         <div className={pillClass(result.role)}>{role}</div>
                         <div className={pillClass(result.resource)}>{resource}</div>
                         <div className={pillClass(result.difficulty)}>{difficulty}</div>
-                        <div className={pillClass(result.year)}>{year}</div>
+                        <div className={pillClass(result.year)}>
+                            {pillClass(result.year) === "pill pill--higher"
+                                ? <>
+                                        {year}
+                                        <UpArrow size={16} className="arrow-up" />
+                                </>
+                                : pillClass(result.year) === "pill pill--lower"
+                                    ? <>
+                                            {year}
+                                            <DownArrow size={16} className="arrow-down" />
+                                </>
+                                    : year}
+                        </div>
                         <div className={pillClass(result.region)}>{region}</div>
                         <div className={pillClass(result.gender)}>{gender}</div>
                     </div>
                 );
             })}
         </div>
-
-            {won && (
-                <div className="win-banner">
-                    ✅ You got it! Answer: <strong>{answer.name}</strong>
-                </div>
-            )}
-        <button
-            className="play-btn"
-            onClick={() => {
-                const a = pickRandom(champs);
-                console.log("Picked answer:", a?.id, a?.name);
-                setAnswer(a);
-                setGuesses([]);
-            }}
-        >
-            New Game
-        </button>
         </div>
 }

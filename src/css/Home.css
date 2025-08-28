@@ -1,75 +1,140 @@
 .champion-home {
+    position: relative;
     min-height: 100vh;
-    padding: 40px 20px;
-    background: radial-gradient(circle at top, #2c1a1a, #0f0a0a 100%);
-    background-attachment: fixed;
+    padding: 24px;
+
+    background-image: url("../img/League-of-Legends.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    isolation: isolate;
+}
+
+.champion-home::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+    );
+    z-index: -1;
 }
 
 .champion-lolt {
     text-align: center;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-
-
+    margin-bottom: 16px;
+    letter-spacing: 1px;
     background: linear-gradient(180deg, #f7e8a4 0%, #d4a019 40%, #9b6b08 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    /* Subtle shadow/glow */
-    text-shadow: 0 0 10px rgba(212, 160, 25, 0.6),
-    0 0 20px rgba(155, 107, 8, 0.5);
-
-
-    font-weight: 700;
+    text-shadow: 0 0 10px rgba(212,160,25,.5);
+    font-weight: 800;
 }
 
-.champion-lolt::first-letter {
-    font-size: 110%;
-}
-@keyframes gold-glow {
-    0% {
-        text-shadow: 0 0 6px rgba(212, 160, 25, 0.6),
-        0 0 12px rgba(155, 107, 8, 0.4);
-    }
-    100% {
-        text-shadow: 0 0 16px rgba(247, 232, 164, 0.8),
-        0 0 32px rgba(212, 160, 25, 0.6);
-    }
+/* Search input — fixed width, centered */
+.search-form {
+    position: relative;
+    width: 320px;       /* balanced width */
+    max-width: 100%;    /* shrink on smaller screens */
+    margin: 0 auto 20px;
 }
 
-.champion-lolt {
-    animation: gold-glow 1s ease-in-out infinite alternate;
+.search-input {
+    width: 50%;        /* fill parent container */
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background: #1c1b1b;
+    color: #eee;
+    font-size: 1rem;
 }
 
-
+/* Champions grid */
 .champions-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 
-    padding: 30px;
-    border-radius: 12px;
-
-    background: rgba(37, 29, 29, 0.85);
-    backdrop-filter: blur(6px);
+    padding: 20px;
+    border-radius: 10px;
+    background: #2e2929cc;
+    border: 1px solid #3d3a3a;
+    backdrop-filter: blur(4px);
     max-width: 1600px;
     margin: 0 auto;
-    box-shadow: 0 6px 18px rgba(66, 33, 33, 0.6);
+
+    overflow-x: hidden; /* 🔑 stops horizontal scroll */
+    box-sizing: border-box; /* makes padding count inside width */
 }
 
-.play-btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background: #a40e0e;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: background 0.2s;
+.champion-card {
+    width: 130px;                  /* lock card width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-.play-btn:hover { background: #ff4757; }
-.loading{
+
+.champion-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.champion-card-name {
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #eee;
+
+    /* ✅ Force ellipsis */
+    display: inline-block;   /* inline-block required */
+    width: 100%;             /* must have width */
+    white-space: nowrap;     /* prevent wrapping */
+    overflow: hidden;        /* hide overflow */
+    text-overflow: ellipsis; /* add "…" */
+}
+
+
+
+.play-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px auto;
+    padding: 12px 24px;
+
+    background: linear-gradient(180deg, #d62d2d, #a40e0e);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    border-radius: 8px;
+    border: 1px solid #ff6b6b;
+    box-shadow: 0 4px 12px rgba(164, 14, 14, 0.4);
+
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.play-btn:hover {
+    background: linear-gradient(180deg, #ff4757, #c0392b);
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 6px 18px rgba(255, 71, 87, 0.6);
+}
+
+.play-btn:active {
+    transform: translateY(0) scale(0.97);
+    box-shadow: 0 3px 6px rgba(164, 14, 14, 0.4);
+}
+
+/* Loading text */
+.loading {
     color: white;
+    text-align: center;
+    margin-top: 20px;
 }

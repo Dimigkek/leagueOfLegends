@@ -43,7 +43,7 @@ export default function Home() {
             League of Legends Champions
         </h1>
         <div className="hero">
-            <Link to="/game" className="play-btn">🎮 Play</Link>
+            <Link to="/game" className="play-btn">Play</Link>
         </div>
             <form>
             <input type="text" className="search-input" value={search} placeholder="Search for the Champion..." onChange={e => setSearch(e.target.value)}/>
