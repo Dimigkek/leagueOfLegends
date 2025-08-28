@@ -153,6 +153,28 @@
     animation: fadeIn 0.3s ease;
 }
 
+.how-to-legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.how-to-legend .pill {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.goal-text {
+    margin-top: 14px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f7e8a4;
+    text-shadow: 0 0 6px rgba(212,160,25,.5);
+}
 
 
 

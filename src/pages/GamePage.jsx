@@ -68,11 +68,26 @@ export default function LoldleClassic() {
         >
             ❓ How to Play
         </button>
-        {showRules ?<div className="how-to-play">
-            <h2>How to Play</h2>
-            <p>Guess the League champion in as few tries as possible!
-                After each guess, hints will tell you if the gender, role, resource, region, or release year is correct.</p>
-        </div>:null}
+            {showRules && (
+                <div className="how-to-play">
+                    <h2>How to Play</h2>
+                    <p>
+                        Guess the League champion in as few tries as possible! <br />
+                        After each guess, hints will tell you if the <b>gender</b>, <b>role</b>,
+                        <b>resource</b>, <b>region</b>, or <b>release year</b> is correct.
+                    </p>
+
+                    <div className="how-to-legend">
+                        <span className="pill pill--match">Correct (Green)</span>
+                        <span className="pill pill--mismatch">Incorrect (Red)</span>
+                        <span className="pill pill--higher">Year Higher ↑</span>
+                        <span className="pill pill--lower">Year Lower ↓</span>
+                    </div>
+                    <p className="goal-text">
+                        The goal is to turn all hints <span className="pill pill--match"> green</span>!
+                    </p>
+                </div>
+            )}
         </div>
         <br/>
             <div className="loldle-input">
