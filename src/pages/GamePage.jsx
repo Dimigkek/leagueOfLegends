@@ -68,6 +68,7 @@ export default function LoldleClassic() {
                     onChange={e => setQuery(e.target.value)}
                     onKeyDown={e => { if (e.key === "Enter") submitGuess(query); }}
                 />):(<div className="win-banner">
+                    <img src={answer.icon} alt={answer.name} />
                     <div>
                         ✅ You got it! Answer: <strong>{answer.name}</strong>
                     </div>
