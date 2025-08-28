@@ -21,16 +21,30 @@ export function pickDaily(champions) {
 
 
 export function judge(answer, guess) {
-
     const a = answer;
     const g = guess;
 
+    let roleMatch = "unknown";
+    if (Array.isArray(a.tags) && Array.isArray(g.tags)) {
+        const overlap = g.tags.filter(t => a.tags.includes(t));
 
-    const roleMatch = g.tags?.some(t => a.tags?.includes(t)) ? "match" : "mismatch";
+        if (overlap.length === 0) {
+            roleMatch = "mismatch";
+        } else if (
+            overlap.length === a.tags.length &&
+            overlap.length === g.tags.length
+        ) {
+            roleMatch = "match";
+        } else {
+            roleMatch = "partial";
+        }
+    }
 
-    const resource = a.partype && g.partype ? (a.partype === g.partype ? "match" : "mismatch") : "unknown";
+    const resource = a.partype && g.partype
+        ? (a.partype === g.partype ? "match" : "mismatch")
+        : "unknown";
 
-    //If I want to add difficulty later on
+    // --- Difficulty (if you add later) ---
     // const aDiff = a.info?.difficulty ?? null;
     // const gDiff = g.info?.difficulty ?? null;
     // let difficulty = "unknown";
@@ -38,26 +52,42 @@ export function judge(answer, guess) {
     //     difficulty = gDiff === aDiff ? "match" : (gDiff < aDiff ? "higher" : "lower");
     // }
 
-
     const am = getMetaById(answer.id) || {};
     const gm = getMetaById(guess.id) || {};
 
     let year = "unknown";
     if (am.releaseYear && gm.releaseYear) {
-        year = gm.releaseYear === am.releaseYear ? "match" : (gm.releaseYear < am.releaseYear ? "higher" : "lower");
+        year =
+            gm.releaseYear === am.releaseYear
+                ? "match"
+                : gm.releaseYear < am.releaseYear
+                    ? "higher"
+                    : "lower";
     }
 
-    const region = am.region && gm.region ? (am.region === gm.region ? "match" : "mismatch") : "unknown";
-    const gender = am.gender && gm.gender ? (am.gender === gm.gender ? "match" : "mismatch") : "unknown";
-    const attack = am.gender && gm.attack ? (am.attack === gm.attack ? "match" : "mismatch") : "unknown";
+    const region =
+        am.region && gm.region
+            ? (am.region === gm.region ? "match" : "mismatch")
+            : "unknown";
 
+    const gender =
+        am.gender && gm.gender
+            ? (am.gender === gm.gender ? "match" : "mismatch")
+            : "unknown";
+
+    const attack =
+        am.attack && gm.attack
+            ? (am.attack === gm.attack ? "match" : "mismatch")
+            : "unknown";
 
     return { role: roleMatch, resource, attack, year, region, gender };
 }
 
+
 export function pillClass(result) {
     switch (result) {
         case "match": return "pill pill--match";
+        case "partial": return "pill pill--partial";
         case "higher": return "pill pill--higher";
         case "lower": return "pill pill--lower";
         case "mismatch": return "pill pill--mismatch";

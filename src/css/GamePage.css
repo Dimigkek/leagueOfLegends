@@ -242,6 +242,7 @@
 .pill--mismatch { background: #5a1f1f; border: 1px solid #c0392b; color: #ffeaea; }
 .pill--higher   { background: #3a2a12; border: 1px solid #d4a019; color: #fff2c7; }
 .pill--lower    { background: #122a3a; border: 1px solid #199bd4; color: #c7e8ff; }
+.pill--partial  { background: #3a2a12; border: 1px solid #d4a019; color: #fff2c7; }
 .pill--unknown  { background: #3a3333; border: 1px solid #6a6464; color: #ddd; }
 
 .win-banner {
