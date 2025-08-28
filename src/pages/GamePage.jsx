@@ -114,7 +114,7 @@ export default function LoldleClassic() {
                             Reset
                         </button>
                     </div>
-                        <p className="guess-count">You have guessed {count} times!</p>
+                        {count>0?<p className="guess-count">You have guessed {count} times!</p>:null}
                     </div>
 
                 ):(<div className="win-banner">
