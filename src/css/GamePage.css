@@ -1,4 +1,4 @@
-.loldle {
+.game {
     position: relative;
     min-height: 100vh;
     padding: 24px;
@@ -10,7 +10,7 @@
     isolation: isolate;
 }
 
-.loldle::before {
+.game::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -22,7 +22,7 @@
     z-index: -1;
 }
 
-.loldle-title {
+.game-title {
     text-align: center;
     margin-bottom: 16px;
     letter-spacing: 1px;
@@ -33,12 +33,12 @@
     font-weight: 800;
 }
 
-.loldle-input {
+.game-input {
     position: relative;
     max-width: 520px;
     margin: 0 auto 20px auto;
 }
-.loldle-input input {
+.game-input input {
     width: 100%;
     padding: 12px 14px;
     border-radius: 8px;
@@ -104,7 +104,7 @@
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
 }
-.loldle-input-row {
+.game-input-row {
     display: flex;
     justify-content: center;   /* center row */
     gap: 10px;                 /* spacing between input & reset */
@@ -112,7 +112,7 @@
     margin: 0 auto 20px;
 }
 
-.loldle-input-row input {
+.game-input-row input {
     flex: 1;                   /* input takes all free space */
     padding: 12px 14px;
     border-radius: 8px;
@@ -176,9 +176,16 @@
     text-shadow: 0 0 6px rgba(212,160,25,.5);
 }
 
+.win-banner .guess-summary {
+    margin-top: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f7e8a4; /* golden yellow */
+    text-shadow: 0 0 6px rgba(247, 232, 164, 0.6);
+    letter-spacing: 0.5px;
+}
 
-
-.loldle-suggest {
+.game-suggest {
     position: absolute;
     top: 100%;
     left: 0; right: 0;
@@ -193,7 +200,7 @@
     z-index: 10;
     color: white;
 }
-.loldle-suggest li {
+.game-suggest li {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -201,10 +208,10 @@
     border-radius: 6px;
     cursor: pointer;
 }
-.loldle-suggest li:hover { background: #3a3333; }
-.loldle-suggest img { width: 24px; height: 24px; border-radius: 4px; }
+.game-suggest li:hover { background: #3a3333; }
+.game-suggest img { width: 24px; height: 24px; border-radius: 4px; }
 
-.loldle-rows { display: grid; gap: 10px; max-width: 900px; margin: 0 auto; }
+.game-rows { display: grid; gap: 10px; max-width: 900px; margin: 0 auto; }
 .guess-row {
     display: grid;
     grid-template-columns: 1.6fr repeat(6, 1fr);

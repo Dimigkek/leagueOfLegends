@@ -30,13 +30,13 @@ export function judge(answer, guess) {
 
     const resource = a.partype && g.partype ? (a.partype === g.partype ? "match" : "mismatch") : "unknown";
 
-
-    const aDiff = a.info?.difficulty ?? null;
-    const gDiff = g.info?.difficulty ?? null;
-    let difficulty = "unknown";
-    if (aDiff != null && gDiff != null) {
-        difficulty = gDiff === aDiff ? "match" : (gDiff < aDiff ? "higher" : "lower");
-    }
+    //If I want to add difficulty later on
+    // const aDiff = a.info?.difficulty ?? null;
+    // const gDiff = g.info?.difficulty ?? null;
+    // let difficulty = "unknown";
+    // if (aDiff != null && gDiff != null) {
+    //     difficulty = gDiff === aDiff ? "match" : (gDiff < aDiff ? "higher" : "lower");
+    // }
 
 
     const am = getMetaById(answer.id) || {};
@@ -49,8 +49,10 @@ export function judge(answer, guess) {
 
     const region = am.region && gm.region ? (am.region === gm.region ? "match" : "mismatch") : "unknown";
     const gender = am.gender && gm.gender ? (am.gender === gm.gender ? "match" : "mismatch") : "unknown";
+    const attack = am.gender && gm.attack ? (am.attack === gm.attack ? "match" : "mismatch") : "unknown";
 
-    return { role: roleMatch, resource, difficulty, year, region, gender };
+
+    return { role: roleMatch, resource, attack, year, region, gender };
 }
 
 export function pillClass(result) {

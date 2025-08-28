@@ -8,7 +8,7 @@ import {DownArrow} from "../components/ArrowDown";
 import {UpArrow} from "../components/ArrowUp";
 import GameButton from "../components/ResetButton";
 
-export default function LoldleClassic() {
+export default function Game() {
     const [champs, setChamps] = useState([]);
     const [answer, setAnswer] = useState(null);
     const [query, setQuery] = useState("");
@@ -57,10 +57,10 @@ export default function LoldleClassic() {
 
     const won = guesses.some(g => g.champ.id === answer.id);
 
-    return <div className="loldle">
+    return <div className="game">
         <title>Game</title>
         <NavBar/>
-        <h1 className="loldle-title">Try to guess the Champion</h1>
+        <h1 className="game-title">Try to guess the Champion</h1>
         <div>
         <button
             className="how-btn"
@@ -90,9 +90,10 @@ export default function LoldleClassic() {
             )}
         </div>
         <br/>
-            <div className="loldle-input">
+            <div className="game-input">
                 {!won?(<div>
-                    <div className="loldle-input-row">
+                    <div className="game-input-row">
+                        {count>0?<span className="guess-count">You have guessed {count} times!</span>:null}
                         <input
                             type="text"
                             placeholder="Type a champion..."
@@ -114,14 +115,13 @@ export default function LoldleClassic() {
                             Reset
                         </button>
                     </div>
-                        {count>0?<p className="guess-count">You have guessed {count} times!</p>:null}
                     </div>
 
                 ):(<div className="win-banner">
                     <img src={answer.icon} alt={answer.name} />
                     <div>
                         ✅ You got it! Answer: <strong>{answer.name}</strong>
-                        <p>You guessed {count} times</p>
+                        <p className="guess-summary">You have guessed {count} times</p>
                     </div>
                     <div>
                         <GameButton
@@ -137,7 +137,7 @@ export default function LoldleClassic() {
                     </div>
                 </div>)}
                 {query && suggestions.length > 0 && (
-                    <ul className="loldle-suggest">
+                    <ul className="game-suggest">
                         {suggestions.map(s => (
                             <li key={s.id} onClick={() =>{ submitGuess(s.name)
                             setCount(count+1)}}>
@@ -149,9 +149,8 @@ export default function LoldleClassic() {
                 )}
             </div>
 
-        <div className="loldle-rows">
+        <div className="game-rows">
             {guesses.map(({ champ, result }, i) => {
-                // derive display values from the *guess*
                 const role =
                     (Array.isArray(champ.tags) && champ.tags.length
                         ? champ.tags.join(" / ")
@@ -159,13 +158,14 @@ export default function LoldleClassic() {
 
                 const resource = champ.partype || "None";
 
-                const diffNum = champ.info?.difficulty ?? 0; // 0..10
-                const difficulty =
-                    diffNum >= 8 ? "Hard" : diffNum >= 4 ? "Moderate" : "Easy";
+                // const diffNum = champ.info?.difficulty ?? 0;
+                // const difficulty =
+                //     diffNum >= 8 ? "Hard" : diffNum >= 4 ? "Moderate" : "Easy";
 
                 const year = meta[champ.id]?.releaseYear ?? "—";
                 const region = meta[champ.id]?.region ?? "—";
                 const gender = meta[champ.id]?.gender ?? "—";
+                const attack = meta[champ.id]?.attack ?? "—";
 
                 return (
                     <div key={i} className="guess-row">
@@ -175,7 +175,7 @@ export default function LoldleClassic() {
                         </div>
                         <div className={pillClass(result.role)}>{role}</div>
                         <div className={pillClass(result.resource)}>{resource}</div>
-                        <div className={pillClass(result.difficulty)}>{difficulty}</div>
+                        <div className={pillClass(result.attack)}>{attack}</div>
                         <div className={pillClass(result.year)}>
                             {pillClass(result.year) === "pill pill--higher"
                                 ? <>
