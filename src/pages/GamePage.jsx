@@ -6,6 +6,7 @@ import NavBar from "../components/NavBar";
 import meta from "../data/championMeta.json";
 import {DownArrow} from "../components/ArrowDown";
 import {UpArrow} from "../components/ArrowUp";
+import GameButton from "../components/ResetButton";
 
 export default function LoldleClassic() {
     const [champs, setChamps] = useState([]);
@@ -14,6 +15,7 @@ export default function LoldleClassic() {
     const [guesses, setGuesses] = useState([]);
     const [error, setError] = useState("");
     const [showRules, setShowRules] = useState(false);
+    const [count, setCount] = useState(0);
 
     useEffect(() => {
         (async () => {
@@ -74,35 +76,53 @@ export default function LoldleClassic() {
         </div>
         <br/>
             <div className="loldle-input">
-                {!won?(<input
-                    type="text"
-                    placeholder="Type a champion..."
-                    value={query}
-                    onChange={e => setQuery(e.target.value)}
-                    onKeyDown={e => { if (e.key === "Enter") submitGuess(query); }}
-                />):(<div className="win-banner">
+                {!won?(<div className="loldle-input-row">
+                        <input
+                            type="text"
+                            placeholder="Type a champion..."
+                            value={query}
+                            onChange={e => setQuery(e.target.value)}
+                            onKeyDown={e => {
+                                if (e.key === "Enter") submitGuess(query);
+                            }}
+                        />
+                        <button
+                            className="reset-btn"
+                            onClick={() => {
+                                const a = pickRandom(champs);
+                                setAnswer(a);
+                                setGuesses([]);
+                                setCount(0);
+                            }}
+                        >
+                            Reset
+                        </button>
+                    </div>
+
+                ):(<div className="win-banner">
                     <img src={answer.icon} alt={answer.name} />
                     <div>
                         ✅ You got it! Answer: <strong>{answer.name}</strong>
+                        <p>You guessed {count} times</p>
                     </div>
                     <div>
-                        <button
-                            className="play-btn"
+                        <GameButton
                             onClick={() => {
                                 const a = pickRandom(champs);
-                                console.log("Picked answer:", a?.id, a?.name);
                                 setAnswer(a);
                                 setGuesses([]);
+                                setCount(0);
                             }}
                         >
-                            New Game
-                        </button>
+                            New Game!
+                        </GameButton>
                     </div>
                 </div>)}
                 {query && suggestions.length > 0 && (
                     <ul className="loldle-suggest">
                         {suggestions.map(s => (
-                            <li key={s.id} onClick={() => submitGuess(s.name)}>
+                            <li key={s.id} onClick={() =>{ submitGuess(s.name)
+                            setCount(count+1)}}>
                                 <img src={s.icon} alt={s.name} />
                                 <span>{s.name}</span>
                             </li>
