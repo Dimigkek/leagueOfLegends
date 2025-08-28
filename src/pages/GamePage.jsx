@@ -71,7 +71,7 @@ export default function Game() {
         <div className="highscore-box">
             <h3>🏆 High Score</h3>
             {highScore !== null ? (
-                <p >Best: {highScore} {count>1?"guesses":"guess"}</p>
+                <p >Best: {highScore} {highScore>1?"guesses":"guess"}</p>
             ) : (
                 <p>No score yet</p>
             )}
