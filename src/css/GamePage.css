@@ -46,6 +46,66 @@
     background: #1c1b1b;
     color: #eee;
 }
+.how-to-play {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 16px 20px;
+    background: rgba(46, 41, 41, 0.85);
+    border: 1px solid #3d3a3a;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: center;
+}
+.how-to-play h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #f7e8a4;
+    text-shadow: 0 0 8px rgba(212,160,25,.5);
+}
+.how-btn {
+    margin-left: 12px;
+    padding: 10px 16px;
+    background: linear-gradient(180deg, #444, #222);
+    color: #f7e8a4;
+    border: 1px solid #666;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+.how-btn:hover {
+    background: linear-gradient(180deg, #666, #333);
+    transform: translateY(-2px);
+}
+
+.how-to-play {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 16px 20px;
+    background: rgba(46, 41, 41, 0.85);
+    border: 1px solid #3d3a3a;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+}
+.how-to-play h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #f7e8a4;
+    text-shadow: 0 0 8px rgba(212,160,25,.5);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
 .loldle-suggest {
     position: absolute;
     top: 100%;

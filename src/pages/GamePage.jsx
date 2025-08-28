@@ -13,6 +13,7 @@ export default function LoldleClassic() {
     const [query, setQuery] = useState("");
     const [guesses, setGuesses] = useState([]);
     const [error, setError] = useState("");
+    const [showRules, setShowRules] = useState(false);
 
     useEffect(() => {
         (async () => {
@@ -57,9 +58,21 @@ export default function LoldleClassic() {
     return <div className="loldle">
         <title>Game</title>
         <NavBar/>
-
-            <h1 className="loldle-title">Find the Champion</h1>
-
+        <h1 className="loldle-title">Find the Champion</h1>
+        <div>
+        <button
+            className="how-btn"
+            onClick={() => setShowRules(!showRules)}
+        >
+            ❓ How to Play
+        </button>
+        {showRules ?<div className="how-to-play">
+            <h2>How to Play</h2>
+            <p>Guess the League champion in as few tries as possible!
+                After each guess, hints will tell you if the gender, role, resource, region, or release year is correct.</p>
+        </div>:null}
+        </div>
+        <br/>
             <div className="loldle-input">
                 {!won?(<input
                     type="text"
