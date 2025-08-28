@@ -236,7 +236,7 @@
   },
   "Irelia": {
     "releaseYear": 2010,
-    "region": null,
+    "region": Ionia,
     "gender": "Female"
   },
   "Ivern": {
@@ -476,7 +476,7 @@
   },
   "Nunu": {
     "releaseYear": 2009,
-    "region": null,
+    "region": Freljord,
     "gender": "Unknown"
   },
   "Olaf": {
