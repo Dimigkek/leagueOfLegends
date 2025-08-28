@@ -16,6 +16,7 @@ export default function Game() {
     const [error, setError] = useState("");
     const [showRules, setShowRules] = useState(false);
     const [count, setCount] = useState(0);
+    const [highScore, setHighScore] = useState(null);
 
     useEffect(() => {
         (async () => {
@@ -31,6 +32,14 @@ export default function Game() {
             }
         })();
     }, []);
+
+    const won = guesses.some(g => g.champ.id === answer.id);
+
+    if (won) {
+        if (highScore === null || count < highScore) {
+            setHighScore(count);
+        }
+    }
 
     useEffect(() => {
         if (!champs.length) return;
@@ -55,11 +64,19 @@ export default function Game() {
     if (error) return <div style={{ color: "crimson", padding: 24 }}>{error}</div>;
     if (!answer || champs.length === 0) return <div style={{ padding: 24 }}>Loading…</div>;
 
-    const won = guesses.some(g => g.champ.id === answer.id);
 
     return <div className="game">
         <title>Game</title>
         <NavBar/>
+        <div className="highscore-box">
+            <h3>🏆 High Score</h3>
+            {highScore !== null ? (
+                <p >Best: {highScore} {count>1?"guesses":"guess"}</p>
+            ) : (
+                <p>No score yet</p>
+            )}
+        </div>
+
         <h1 className="game-title">Try to guess the Champion</h1>
         <div>
         <button
