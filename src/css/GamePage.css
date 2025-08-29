@@ -292,6 +292,7 @@
 
 @media (max-width: 768px) {
     .game-input-row {
+        width: 80%;
         flex-direction: column;
         gap: 12px;
     }
@@ -313,6 +314,7 @@
 }
 @media (max-width: 1024px) {
     .guess-row {
+        width: 80%;
         grid-template-columns: 1fr 1fr 1fr;
         font-size: 0.9rem;
     }
@@ -329,6 +331,7 @@
 
 @media (max-width: 768px) {
     .game-input-row {
+        width: 80%;
         flex-direction: column;
         gap: 12px;
     }
