@@ -25,11 +25,10 @@
 .champion-card:hover {
     transform: translateY(-5px);
 }
-.champion-description{
+
+.champion-description,
+.champion-passive {
     color: white;
-}
-.champion-passive{
-    color:white;
 }
 
 .champion-poster {
@@ -44,19 +43,10 @@
     object-fit: cover;
 }
 
-.champions-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
+/* Overlay */
 .champion-overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 0; left: 0; right: 0; bottom: 0;
     background: linear-gradient(
             to bottom,
             rgba(0, 0, 0, 0.1),
@@ -69,11 +59,11 @@
     justify-content: flex-end;
     padding: 1rem;
 }
-
 .champion-card:hover .champion-overlay {
     opacity: 1;
 }
 
+/* Info inside card */
 .champion-info {
     padding: 1rem;
     flex: 1;
@@ -81,38 +71,21 @@
     flex-direction: column;
     gap: 0.5rem;
 }
-
 .champion-info h3 {
     font-size: 1rem;
     margin: 0;
 }
-
 .champion-info p {
     color: #999;
     font-size: 0.9rem;
 }
-
 .user-rating {
     color: #ffd700;
     font-size: 0.9rem;
     margin-top: auto;
 }
 
-@media (max-width: 768px) {
-    .champion-card {
-        font-size: 0.9rem;
-    }
-
-    .champion-info {
-        padding: 0.75rem;
-    }
-
-    .favorite-btn {
-        width: 32px;
-        height: 32px;
-        font-size: 1.2rem;
-    }
-}
+/* Search */
 .search-input {
     width: 250px;
     padding: 10px 14px;
@@ -127,13 +100,58 @@
     font-size: 14px;
     transition: all 0.2s ease;
 }
-
 .search-input::placeholder {
     color: #aaa;
 }
-
 .search-input:focus {
     outline: none;
     border-color: #ff4655;
     box-shadow: 0 0 6px #ff4655aa;
+}
+
+/* -------- Responsive -------- */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .champion-card {
+        width: 110px;
+    }
+}
+
+/* Smaller tablets / landscape phones */
+@media (max-width: 768px) {
+    .champion-card {
+        width: 90px;
+        font-size: 0.9rem;
+    }
+    .champion-card-name {
+        font-size: 0.8rem;
+    }
+    .champion-info {
+        padding: 0.75rem;
+    }
+    .favorite-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 1.2rem;
+    }
+    .search-input {
+        width: 70%;
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    .champions-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .champion-card {
+        width: 100%;
+    }
+    .champion-card-name {
+        font-size: 0.75rem;
+    }
+    .search-input {
+        width: 90%;
+    }
 }

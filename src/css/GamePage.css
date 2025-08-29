@@ -291,11 +291,99 @@
 }
 
 @media (max-width: 768px) {
+    .game-input-row {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .reset-btn {
+        width: 100%;
+    }
+    .guess-row {
+        grid-template-columns: 1fr 1fr;
+        font-size: 0.8rem;
+    }
     .highscore-box {
         position: relative;
         top: auto;
         right: auto;
-        margin: 10px auto;
+        margin: 12px auto;
+        width: 100%;
+        max-width: 280px;
+    }
+}
+@media (max-width: 1024px) {
+    .guess-row {
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 0.9rem;
+    }
+
+    .guess-name img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .game-title {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .game-input-row {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .reset-btn {
+        width: 100%;
+    }
+
+    .guess-row {
+        grid-template-columns: 1fr 1fr;
+        font-size: 0.8rem;
+    }
+
+    .highscore-box {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 12px auto;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .game-title {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .guess-row {
+        grid-template-columns: 1fr;
+        font-size: 0.75rem;
+    }
+
+    .guess-name img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .how-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .game-title {
+        font-size: 1.2rem;
+    }
+
+    .game-input input {
+        font-size: 0.9rem;
+        padding: 10px 12px;
+    }
+
+    .reset-btn {
+        font-size: 0.85rem;
+        padding: 10px 12px;
     }
 }
 

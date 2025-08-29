@@ -20,12 +20,16 @@
     font-weight: bold;
     color: #f7e8a4;
     text-shadow: 0 0 6px rgba(212, 160, 25, 0.6);
+    cursor: pointer;
 }
+
 
 .navbar-links {
     display: flex;
     gap: 2rem;
+    transition: all 0.3s ease;
 }
+
 
 .nav-link {
     font-size: 1rem;
@@ -33,12 +37,25 @@
     border-radius: 4px;
     color: #eee;
     transition: background-color 0.2s, color 0.2s;
+    cursor: pointer;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #fff;
+    color: #f7e8a4;
 }
+
+
+.burger {
+    display: none;
+    font-size: 1.8rem;
+    color: #f7e8a4;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
 
 @media (max-width: 768px) {
     .navbar {
@@ -50,10 +67,31 @@
     }
 
     .navbar-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        flex-direction: column;
+        background: rgba(0,0,0,0.95);
+        width: 200px;
+        padding: 1rem;
+        border-radius: 0 0 8px 8px;
         gap: 1rem;
     }
 
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+/* Tiny devices */
+@media (max-width: 400px) {
     .nav-link {
+        font-size: 0.85rem;
         padding: 0.5rem;
     }
 }
