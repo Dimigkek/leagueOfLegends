@@ -154,6 +154,8 @@
     font-size: 0.9rem;
     transition: all 0.2s ease;
     width: auto;
+    min-width: 110px;
+    justify-content: flex-start;
 }
 
 .filter-option:hover {
@@ -186,15 +188,21 @@
     }
 
     .play-btn {
-        width: 100%;
+        width: 50%;
         font-size: 0.9rem;
     }
 }
 
 @media (max-width: 480px) {
     .filter-option {
-        flex: 1 1 45%;
-        justify-content: center;
+        flex: 1 1 calc(33.3% - 10px);
+        font-size: 0.8rem;
+        padding: 6px 8px;
+    }
+
+    .filter-icon {
+        width: 16px;
+        height: 16px;
     }
 
     .champion-card {
