@@ -139,3 +139,39 @@
     text-align: center;
     margin-top: 20px;
 }
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.filter-option {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: rgba(46, 41, 41, 0.85);
+    border: 1px solid #3d3a3a;
+    cursor: pointer;
+    color: #eee;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    width: auto; /* prevents stretching full width */
+}
+
+.filter-option:hover {
+    background: rgba(70, 65, 65, 0.9);
+}
+
+.filter-option input {
+    accent-color: #d4a019; /* gold style for checkbox */
+}
+
+.filter-icon {
+    width: 20px;
+    height: 20px;
+}
