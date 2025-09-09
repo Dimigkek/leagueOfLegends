@@ -41,7 +41,7 @@ export default function Home() {
     },[])
 
     return <div className="champion-home">
-            <title>Lolapp</title>
+            <title>Home</title>
         <h1 className="champion-lolt display-2 fw-bold text-uppercase">
             League of Legends Champions
         </h1>
