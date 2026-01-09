@@ -22,3 +22,11 @@ A modern, interactive web application built with **React** that explores League 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Dimigkek/leagueOfLegends.git](https://github.com/Dimigkek/leagueOfLegends.git)
+2. Install dependencies: npm install
+3. Development Mode: Runs the app at http://localhost:3000  -npm start
+4. npm run build
+
+
+Author: Dimitris Gkekas
+
+Disclaimer: This project is a fan-made application and is not endorsed by Riot Games.
