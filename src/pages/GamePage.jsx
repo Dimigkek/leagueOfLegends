@@ -6,7 +6,9 @@ import NavBar from "../components/NavBar";
 import meta from "../data/championMeta.json";
 import {DownArrow} from "../components/ArrowDown";
 import {UpArrow} from "../components/ArrowUp";
-import GameButton from "../components/GameButton";
+import GameButton from "../components/ResetButton";
+import {useDispatch, useSelector} from "react-redux";
+import { updateHighScore } from '../services/scoreSlice';
 
 export default function Game() {
     const [champs, setChamps] = useState([]);
@@ -16,7 +18,8 @@ export default function Game() {
     const [error, setError] = useState("");
     const [showRules, setShowRules] = useState(false);
     const [count, setCount] = useState(0);
-    const [highScore, setHighScore] = useState(null);
+    const highScore = useSelector((state) => state.score.highScore);
+    const dispatch = useDispatch();
 
     useEffect(() => {
         (async () => {
@@ -35,11 +38,11 @@ export default function Game() {
 
     const won = guesses.some(g => g.champ.id === answer.id);
 
-    if (won) {
-        if (highScore === null || count < highScore) {
-            setHighScore(count);
+    useEffect(() => {
+        if (won) {
+            dispatch(updateHighScore(count));
         }
-    }
+    }, [won, count, dispatch]);
 
     useEffect(() => {
         if (!champs.length) return;
@@ -60,8 +63,7 @@ export default function Game() {
         setGuesses(prev => [{ champ: guess, result }, ...prev]);
         setQuery("");
     }
-    //TODO: ADD REDUX TO SAVE THE HIGHSCORE
-    //TODO: ADD A HINT TO TYPE THE CHAMPION WHNE YOU FIRST OPEN THE GAME PAGE
+    //TODO: ADD A HINT TO TYPE THE CHAMPION WHEN YOU FIRST OPEN THE GAME PAGE
 
     if (error) return <div style={{ color: "crimson", padding: 24 }}>{error}</div>;
     if (!answer || champs.length === 0) return <div style={{ padding: 24 }}>Loading…</div>;
@@ -81,12 +83,12 @@ export default function Game() {
 
         <h1 className="game-title">Try to guess the Champion</h1>
         <div>
-        <button
-            className="how-btn"
-            onClick={() => setShowRules(!showRules)}
-        >
-            ❓ How to Play
-        </button>
+            <button
+                className="how-btn"
+                onClick={() => setShowRules(!showRules)}
+            >
+                ❓ How to Play
+            </button>
             {showRules && (
                 <div className="how-to-play">
                     <h2>How to Play</h2>
@@ -109,8 +111,8 @@ export default function Game() {
             )}
         </div>
         <br/>
-            <div className="game-input">
-                {!won?(<div>
+        <div className="game-input">
+            {!won?(<div>
                     <div className="game-input-row">
                         {count>0?<span className="guess-count">You have guessed {count} times!</span>:null}
                         <input
@@ -122,7 +124,7 @@ export default function Game() {
                                 if (e.key === "Enter") submitGuess(query);
                             }}
                         />
-                        <GameButton
+                        <button
                             className="reset-btn"
                             onClick={() => {
                                 const a = pickRandom(champs);
@@ -131,42 +133,42 @@ export default function Game() {
                                 setCount(0);
                             }}
                         >
-                            New Game!
-                        </GameButton>
+                            Reset
+                        </button>
                     </div>
-                    </div>
+                </div>
 
-                ):(<div className="win-banner">
-                    <img src={answer.icon} alt={answer.name} />
-                    <div>
-                        ✅ You got it! Answer: <strong>{answer.name}</strong>
-                        <p className="guess-summary">You have guessed {count} times</p>
-                    </div>
-                    <div>
-                        <GameButton
-                            onClick={() => {
-                                const a = pickRandom(champs);
-                                setAnswer(a);
-                                setGuesses([]);
-                                setCount(0);
-                            }}
-                        >
-                            New Game!
-                        </GameButton>
-                    </div>
-                </div>)}
-                {query && suggestions.length > 0 && (
-                    <ul className="game-suggest">
-                        {suggestions.map(s => (
-                            <li key={s.id} onClick={() =>{ submitGuess(s.name)
+            ):(<div className="win-banner">
+                <img src={answer.icon} alt={answer.name} />
+                <div>
+                    ✅ You got it! Answer: <strong>{answer.name}</strong>
+                    <p className="guess-summary">You have guessed {count} times</p>
+                </div>
+                <div>
+                    <GameButton
+                        onClick={() => {
+                            const a = pickRandom(champs);
+                            setAnswer(a);
+                            setGuesses([]);
+                            setCount(0);
+                        }}
+                    >
+                        New Game!
+                    </GameButton>
+                </div>
+            </div>)}
+            {query && suggestions.length > 0 && (
+                <ul className="game-suggest">
+                    {suggestions.map(s => (
+                        <li key={s.id} onClick={() =>{ submitGuess(s.name)
                             setCount(count+1)}}>
-                                <img src={s.icon} alt={s.name} />
-                                <span>{s.name}</span>
-                            </li>
-                        ))}
-                    </ul>
-                )}
-            </div>
+                            <img src={s.icon} alt={s.name} />
+                            <span>{s.name}</span>
+                        </li>
+                    ))}
+                </ul>
+            )}
+        </div>
 
         <div className="game-rows">
             {guesses.map(({ champ, result }, i) => {
@@ -198,14 +200,14 @@ export default function Game() {
                         <div className={pillClass(result.year)}>
                             {pillClass(result.year) === "pill pill--higher"
                                 ? <>
-                                        {year}
-                                        <UpArrow size={16} className="arrow-up" />
+                                    {year}
+                                    <UpArrow size={16} className="arrow-up" />
                                 </>
                                 : pillClass(result.year) === "pill pill--lower"
                                     ? <>
-                                            {year}
-                                            <DownArrow size={16} className="arrow-down" />
-                                </>
+                                        {year}
+                                        <DownArrow size={16} className="arrow-down" />
+                                    </>
                                     : year}
                         </div>
                         <div className={pillClass(result.region)}>{region}</div>
@@ -214,5 +216,5 @@ export default function Game() {
                 );
             })}
         </div>
-        </div>
+    </div>
 }

@@ -10,15 +10,6 @@ export function norm(s = "") {
 }
 
 
-export function pickDaily(champions) {
-    const today = new Date();
-    const key = `${today.getUTCFullYear()}-${today.getUTCMonth()+1}-${today.getUTCDate()}`;
-    let hash = 0;
-    for (let i = 0; i < key.length; i++) hash = (hash * 31 + key.charCodeAt(i)) >>> 0;
-    const idx = hash % champions.length;
-    return champions[idx];
-}
-
 
 export function judge(answer, guess) {
     const a = answer;

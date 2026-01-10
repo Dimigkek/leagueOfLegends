@@ -989,6 +989,12 @@
     "gender": "Unknown",
     "attack": "Melee"
   },
+  "Zaahen": {
+    "releaseYear": 2025,
+    "region": "Ionia",
+    "gender": "Male",
+    "attack": "Melee"
+  },
   "Zed": {
     "releaseYear": 2012,
     "region": "Ionia",
