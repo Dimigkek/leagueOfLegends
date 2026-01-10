@@ -7,8 +7,11 @@ const scoreSlice = createSlice({
     },
     reducers: {
         updateHighScore: (state, action) => {
-            if (action.payload > state.highScore) {
-                state.highScore = action.payload;
+            const newScore = action.payload;
+
+            if (state.highScore === 0 || newScore < state.highScore) {
+                state.highScore = newScore;
+                localStorage.setItem('lolHighScore', newScore);
             }
         },
         resetHighScore: (state) => {
