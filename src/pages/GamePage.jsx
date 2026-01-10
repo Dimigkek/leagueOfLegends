@@ -6,7 +6,7 @@ import NavBar from "../components/NavBar";
 import meta from "../data/championMeta.json";
 import {DownArrow} from "../components/ArrowDown";
 import {UpArrow} from "../components/ArrowUp";
-import GameButton from "../components/ResetButton";
+import GameButton from "../components/GameButton";
 
 export default function Game() {
     const [champs, setChamps] = useState([]);
@@ -25,7 +25,7 @@ export default function Game() {
                 data.sort((a, b) => a.name.localeCompare(b.name));
                 setChamps(data);
                 const a = pickRandom(data);
-                console.log("Picked answer:", a?.id, a?.name);
+                // console.log("Picked answer:", a?.id, a?.name);
                 setAnswer(a);
             } catch (e) {
                 setError("Failed to load champions.");
@@ -60,6 +60,8 @@ export default function Game() {
         setGuesses(prev => [{ champ: guess, result }, ...prev]);
         setQuery("");
     }
+    //TODO: ADD REDUX TO SAVE THE HIGHSCORE
+    //TODO: ADD A HINT TO TYPE THE CHAMPION WHNE YOU FIRST OPEN THE GAME PAGE
 
     if (error) return <div style={{ color: "crimson", padding: 24 }}>{error}</div>;
     if (!answer || champs.length === 0) return <div style={{ padding: 24 }}>Loading…</div>;
@@ -120,7 +122,7 @@ export default function Game() {
                                 if (e.key === "Enter") submitGuess(query);
                             }}
                         />
-                        <button
+                        <GameButton
                             className="reset-btn"
                             onClick={() => {
                                 const a = pickRandom(champs);
@@ -129,8 +131,8 @@ export default function Game() {
                                 setCount(0);
                             }}
                         >
-                            Reset
-                        </button>
+                            New Game!
+                        </GameButton>
                     </div>
                     </div>
 
